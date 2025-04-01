@@ -1684,319 +1684,6 @@
 				)
 			)
 		)
-		(symbol "Simulation_SPICE:NMOS"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "NMOS"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "N-MOSFET transistor, drain/source/gate"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "NMOS"
-				(at 0 -17.145 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NMOS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "NMOS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Switch:SW_Nidec_CAS-120A1"
 			(pin_names
 				(offset 1) hide)
@@ -2170,6 +1857,222 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Switch:TS5A4624_SPDT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.334 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TS5A4624_SPDT_0_1"
+				(circle
+					(center -4.572 -12.7)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.064 -12.7) (xy 1.524 -15.24)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -15.24)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -10.16)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TS5A4624_SPDT_1_1"
+				(rectangle
+					(start -5.334 -5.08)
+					(end 2.54 -17.78)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 -7.62 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -1.27 -2.54 270)
+					(length 2.54)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -1.27 -20.32 90)
+					(length 2.54)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -15.24 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -12.7 0)
+					(length 2.54)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -10.16 180)
+					(length 2.54)
+					(name "NO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2415,6 +2318,18 @@
 		(uuid "052053a0-679d-491c-8ddb-6d7ceeb01d96")
 	)
 	(junction
+		(at 68.58 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0525baf0-f60b-470c-aac5-af09c06893e0")
+	)
+	(junction
+		(at 59.69 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ac5a593-c534-4f5a-981b-dae23d0d069e")
+	)
+	(junction
 		(at 130.81 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2463,6 +2378,12 @@
 		(uuid "5bebeeda-4560-43de-9e9e-4495d297c97a")
 	)
 	(junction
+		(at 40.64 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6241379e-2639-46ab-b88c-9744567ed28d")
+	)
+	(junction
 		(at 187.96 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2475,22 +2396,10 @@
 		(uuid "750075f4-5986-4e95-9eba-f5912b3e9938")
 	)
 	(junction
-		(at 52.07 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "771bceb4-ff90-4ecb-9c6e-1896a02375c5")
-	)
-	(junction
 		(at 146.05 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e38ca92-53a3-4973-b582-0070f048fd44")
-	)
-	(junction
-		(at 68.58 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "90ef406a-63df-4f42-9138-ee4efcd09534")
 	)
 	(junction
 		(at 90.17 118.11)
@@ -2511,16 +2420,16 @@
 		(uuid "a3d45331-c0a5-490d-a58d-948686aa3fa9")
 	)
 	(junction
+		(at 168.91 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a836a12a-5abe-47a6-9d07-87fbef58bef3")
+	)
+	(junction
 		(at 128.27 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a89ef8cb-b72d-44c8-b862-85d61d636adc")
-	)
-	(junction
-		(at 52.07 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c7fc5f2e-81c6-47bd-bc3a-04a328b4d773")
 	)
 	(junction
 		(at 100.33 179.07)
@@ -2692,16 +2601,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 115.57) (xy 52.07 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15880af1-e23d-4dc1-87df-75baee3fbc0e")
-	)
-	(wire
-		(pts
 			(xy 44.45 184.15) (xy 44.45 189.23)
 		)
 		(stroke
@@ -2812,6 +2711,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 113.03) (xy 46.99 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e840d78-af30-48bb-ac02-06b347d031c6")
+	)
+	(wire
+		(pts
 			(xy 22.86 38.1) (xy 22.86 39.37)
 		)
 		(stroke
@@ -2832,13 +2741,13 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 115.57) (xy 68.58 115.57)
+			(xy 40.64 116.84) (xy 40.64 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2ffa54bd-330d-4d96-ad0f-d7dfb9314fc0")
+		(uuid "3004b034-92c7-4a82-9237-549bce3804b4")
 	)
 	(wire
 		(pts
@@ -2849,6 +2758,16 @@
 			(type default)
 		)
 		(uuid "30a7ddc0-2977-4068-9fcf-3720895759d6")
+	)
+	(wire
+		(pts
+			(xy 59.69 110.49) (xy 62.23 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30dea95f-b460-4157-ad2e-f2195cdef557")
 	)
 	(wire
 		(pts
@@ -2992,6 +2911,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 118.11) (xy 40.64 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cfe71f7-c5e5-4b12-bc1c-df43a0d51afc")
+	)
+	(wire
+		(pts
 			(xy 247.65 87.63) (xy 247.65 83.82)
 		)
 		(stroke
@@ -3029,6 +2958,16 @@
 			(type default)
 		)
 		(uuid "51c484f1-90a1-4cb7-b23f-6ed0177d51ba")
+	)
+	(wire
+		(pts
+			(xy 40.64 118.11) (xy 46.99 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52ee7d8b-6614-4c56-8fc8-97fb8aa55eef")
 	)
 	(wire
 		(pts
@@ -3142,13 +3081,13 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 135.89) (xy 52.07 135.89)
+			(xy 168.91 130.81) (xy 168.91 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "67e48b03-9f15-4950-b3c1-28ed12c71856")
+		(uuid "6b878238-3eb5-4065-b16b-b4dbe3b2e9c2")
 	)
 	(wire
 		(pts
@@ -3159,16 +3098,6 @@
 			(type default)
 		)
 		(uuid "701aa4af-303e-476e-90a6-346202a3f90f")
-	)
-	(wire
-		(pts
-			(xy 36.83 119.38) (xy 36.83 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72a8ee3c-bd22-49ca-b791-1fbfa6b7ff3f")
 	)
 	(wire
 		(pts
@@ -3282,16 +3211,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 115.57) (xy 55.88 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8502f6ee-2210-462a-9ad1-5d4f40401450")
-	)
-	(wire
-		(pts
 			(xy 110.49 58.42) (xy 130.81 58.42)
 		)
 		(stroke
@@ -3339,16 +3258,6 @@
 			(type default)
 		)
 		(uuid "8ba1e765-51b1-4e8e-9d15-3ca88c30f642")
-	)
-	(wire
-		(pts
-			(xy 40.64 115.57) (xy 52.07 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c86544d-539c-455c-9c63-2b6e5a826ba2")
 	)
 	(wire
 		(pts
@@ -3452,6 +3361,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 115.57) (xy 59.69 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aa1e9c7-9a11-4542-bfad-2b18c3ebd693")
+	)
+	(wire
+		(pts
 			(xy 54.61 59.69) (xy 54.61 74.93)
 		)
 		(stroke
@@ -3529,6 +3448,16 @@
 			(type default)
 		)
 		(uuid "a3e823fa-1f94-4d77-941f-a31866b596dc")
+	)
+	(wire
+		(pts
+			(xy 62.23 100.33) (xy 62.23 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5834311-8761-4c61-b8f3-8e56b35cb67b")
 	)
 	(wire
 		(pts
@@ -3622,7 +3551,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 105.41) (xy 36.83 111.76)
+			(xy 40.64 102.87) (xy 40.64 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3712,13 +3641,13 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 135.89) (xy 59.69 135.89)
+			(xy 194.31 125.73) (xy 196.85 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c4663e6c-916b-45ba-aae8-413b4422547b")
+		(uuid "c699ae3b-1341-4711-9e4a-8e7588ed4b21")
 	)
 	(wire
 		(pts
@@ -3789,6 +3718,16 @@
 			(type default)
 		)
 		(uuid "d01d9b8e-03d7-4e59-bc5e-155c72a40e62")
+	)
+	(wire
+		(pts
+			(xy 181.61 123.19) (xy 184.15 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d91a26b2-0954-4ea4-8971-1c83c08ba833")
 	)
 	(wire
 		(pts
@@ -3882,6 +3821,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 115.57) (xy 60.96 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e54e40f0-e49b-465c-ba4b-13d49037e9bd")
+	)
+	(wire
+		(pts
 			(xy 48.26 167.64) (xy 52.07 167.64)
 		)
 		(stroke
@@ -3929,16 +3878,6 @@
 			(type default)
 		)
 		(uuid "ee32fe64-e4f0-40f3-828f-695acc8cf517")
-	)
-	(wire
-		(pts
-			(xy 41.91 130.81) (xy 44.45 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eec4003d-f52a-4eb0-9e51-fc5b211309ab")
 	)
 	(wire
 		(pts
@@ -3999,6 +3938,16 @@
 			(type default)
 		)
 		(uuid "f2306b93-6eee-4c0e-bb3b-aa8c9f2ac53e")
+	)
+	(wire
+		(pts
+			(xy 40.64 135.89) (xy 59.69 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f812f458-d133-4e92-993a-fe369776c9c7")
 	)
 	(wire
 		(pts
@@ -4106,7 +4055,7 @@
 		(uuid "2c670050-8221-4c93-9c35-a21f4a3bdcc3")
 	)
 	(label "Diff"
-		(at 36.83 105.41 0)
+		(at 40.64 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4293,7 +4242,7 @@
 		(uuid "c381000e-9758-42b5-a236-d31cc217119e")
 	)
 	(label "Integrator_Off"
-		(at 181.61 123.19 0)
+		(at 196.85 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4337,13 +4286,13 @@
 		(uuid "d26dd533-5324-4782-af7f-8f84840f5af4")
 	)
 	(label "Integrator_Off"
-		(at 41.91 123.19 180)
+		(at 62.23 100.33 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "e609b6c5-eb18-47f6-9bf0-76f5b42d313a")
 	)
@@ -4430,7 +4379,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
 			(at 176.53 29.21 0)
 			(effects
 				(font
@@ -4449,6 +4398,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 176.53 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 176.53 29.21 0)
 			(effects
 				(font
@@ -4511,7 +4469,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical_HandSoldering"
 			(at 29.21 59.69 0)
 			(effects
 				(font
@@ -4530,6 +4488,15 @@
 			)
 		)
 		(property "Description" "Potentiometer"
+			(at 29.21 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 29.21 59.69 0)
 			(effects
 				(font
@@ -4610,6 +4577,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 123.19 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "92eb47bd-6f9b-444a-ba1d-772c27c235b2")
 		)
@@ -4673,6 +4649,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 105.41 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 105.41 52.07 0)
 			(effects
 				(font
@@ -4757,6 +4742,74 @@
 			(project "analog-pid"
 				(path "/f8f47fcf-9d6d-43cb-8be8-a044ab46f294"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 53.34 123.19 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fbf52ee-ef4e-4a3f-bcb2-7208d1d81763")
+		(property "Reference" "#PWR023"
+			(at 53.34 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.3399 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 53.34 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f39cfd81-8e94-4e85-ac6c-9b540e264f91")
+		)
+		(instances
+			(project "analog-pid"
+				(path "/f8f47fcf-9d6d-43cb-8be8-a044ab46f294"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -4882,6 +4935,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 242.57 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7b41b321-83e9-41b2-b765-4b4d97832e20")
 		)
@@ -4951,6 +5013,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 29.21 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a2d84b9f-b7f8-4360-a12c-13916760b9c8")
 		)
@@ -4992,7 +5063,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical_HandSoldering"
 			(at 180.34 72.39 0)
 			(effects
 				(font
@@ -5011,6 +5082,15 @@
 			)
 		)
 		(property "Description" "Potentiometer"
+			(at 180.34 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 180.34 72.39 0)
 			(effects
 				(font
@@ -5126,6 +5206,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 264.16 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5ac20c63-6438-4258-a2a8-e9a9d87340a4")
 		)
@@ -5205,6 +5294,15 @@
 			)
 		)
 		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 92.71 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 92.71 179.07 0)
 			(effects
 				(font
@@ -5331,6 +5429,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 184.15 128.27 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c924d0d-4032-4340-bff1-b1336271bd01")
+		(property "Reference" "#PWR025"
+			(at 187.96 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 180.34 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 184.15 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2befbc9d-4768-44ee-9646-a2c5fa0beb41")
+		)
+		(instances
+			(project "analog-pid"
+				(path "/f8f47fcf-9d6d-43cb-8be8-a044ab46f294"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 71.12 39.37 0)
 		(unit 1)
@@ -5450,6 +5616,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 93.98 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f3d25822-5338-42f6-ab3a-58da5b09de28")
 		)
@@ -5511,6 +5686,15 @@
 			)
 		)
 		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 45.72 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 45.72 74.93 0)
 			(effects
 				(font
@@ -5650,6 +5834,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
+			(at 120.65 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 120.65 49.53 0)
 			(effects
 				(font
@@ -5813,6 +6006,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 246.38 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e1d8c69d-751b-46a0-925e-17fec7332173")
 		)
@@ -5823,6 +6025,74 @@
 			(project "analog-pid"
 				(path "/f8f47fcf-9d6d-43cb-8be8-a044ab46f294"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 53.34 105.41 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "483f1496-ae92-4023-977a-708e3b82e817")
+		(property "Reference" "#PWR024"
+			(at 53.34 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 53.3399 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 53.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a8403de-682d-4c23-ab63-0af0dabd01e6")
+		)
+		(instances
+			(project "analog-pid"
+				(path "/f8f47fcf-9d6d-43cb-8be8-a044ab46f294"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -5948,6 +6218,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 25.4 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a7b29207-865e-4033-957f-e29cc6e1e202")
 		)
@@ -6017,7 +6296,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Nidec_CAS-120A1"
+		(property "Value" "SS12D10"
 			(at 213.36 63.5 0)
 			(effects
 				(font
@@ -6025,7 +6304,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+		(property "Footprint" "MyFootprints:SS12D10 SPDT Switch"
 			(at 213.36 59.69 0)
 			(effects
 				(font
@@ -6044,6 +6323,15 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
+			(at 213.36 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 213.36 69.85 0)
 			(effects
 				(font
@@ -6126,6 +6414,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 252.73 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b955eef4-2dc3-4461-a3d8-01905974494a")
 		)
@@ -6187,6 +6484,15 @@
 			)
 		)
 		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 78.74 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 78.74 118.11 0)
 			(effects
 				(font
@@ -6314,7 +6620,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 36.83 115.57 0)
+		(at 40.64 113.03 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6324,7 +6630,7 @@
 		(fields_autoplaced yes)
 		(uuid "66c3195f-1a70-45e5-981a-21c78eba5174")
 		(property "Reference" "RV2"
-			(at 34.29 114.2999 0)
+			(at 38.1 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6333,7 +6639,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 34.29 116.8399 0)
+			(at 38.1 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6341,8 +6647,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 36.83 115.57 0)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical_HandSoldering"
+			(at 40.64 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6351,7 +6657,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 115.57 0)
+			(at 40.64 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6360,7 +6666,16 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 36.83 115.57 0)
+			(at 40.64 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 40.64 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6440,6 +6755,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 134.62 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a2fb3b57-c37a-47b2-9ebf-e02ea65c9c65")
 		)
@@ -6509,6 +6833,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 134.62 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6c03359f-d18b-4d68-ad4c-b7f16d3278ef")
 		)
@@ -6569,6 +6902,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 43.18 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 43.18 179.07 0)
 			(effects
 				(font
@@ -6715,6 +7057,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 247.65 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6390008b-8e95-4207-bbf2-2866b9e928df")
 		)
@@ -6775,6 +7126,15 @@
 			)
 		)
 		(property "Description" "Single XOR Gate, Low-Voltage CMOS"
+			(at 168.91 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 168.91 123.19 0)
 			(effects
 				(font
@@ -6854,6 +7214,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 130.81 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 130.81 62.23 0)
 			(effects
 				(font
@@ -6989,6 +7358,15 @@
 			)
 		)
 		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 257.81 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 257.81 67.31 0)
 			(effects
 				(font
@@ -7183,106 +7561,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 49.53 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "81ba8ae7-9d53-40ba-96e6-40b2f6046482")
-		(property "Reference" "Q1"
-			(at 55.88 129.5399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 55.88 132.0799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.61 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 49.53 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 49.53 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 49.53 147.955 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 49.53 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 49.53 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "500a0c6d-3bce-4495-945b-86e1ad70ec63")
-		)
-		(pin "1"
-			(uuid "1d0e8a97-ef1f-43e2-b8a7-0b38633fc081")
-		)
-		(pin "3"
-			(uuid "215360ca-0639-43b5-a86d-3c8839559d52")
-		)
-		(instances
-			(project ""
-				(path "/f8f47fcf-9d6d-43cb-8be8-a044ab46f294"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:MCP6004")
 		(at 135.89 106.68 0)
 		(unit 2)
@@ -7327,6 +7605,15 @@
 			)
 		)
 		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 135.89 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 135.89 106.68 0)
 			(effects
 				(font
@@ -7433,6 +7720,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 64.77 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 64.77 29.21 0)
 			(effects
 				(font
@@ -7576,6 +7872,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 135.89 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a7b29207-865e-4033-957f-e29cc6e1e205")
 		)
@@ -7683,6 +7988,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 105.41 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1473ea00-ee6b-49d5-8152-7cb1532049c4")
 		)
@@ -7742,6 +8056,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 81.28 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 81.28 168.91 0)
 			(effects
 				(font
@@ -7811,6 +8134,15 @@
 			)
 		)
 		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 199.39 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 199.39 153.67 0)
 			(effects
 				(font
@@ -7923,6 +8255,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 77.47 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "593c0993-8a4c-4510-adbb-c17e14b28c16")
 		)
@@ -7965,7 +8306,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical_HandSoldering"
 			(at 269.24 139.7 0)
 			(effects
 				(font
@@ -7992,6 +8333,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 269.24 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ce5fd45e-9e23-4b5e-ab89-943cd234dacc")
 		)
@@ -8005,6 +8355,86 @@
 			(project "analog-pid"
 				(path "/f8f47fcf-9d6d-43cb-8be8-a044ab46f294"
 					(reference "RV3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Nidec_CAS-120A1")
+		(at 189.23 125.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa540de4-0244-452e-8f90-8d61925112be")
+		(property "Reference" "SW2"
+			(at 189.23 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS12D10"
+			(at 189.23 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MyFootprints:SS12D10 SPDT Switch"
+			(at 189.23 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+			(at 189.23 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 189.23 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 189.23 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "31c961e3-468f-4218-9de3-338f612a5e2d")
+		)
+		(pin "1"
+			(uuid "9b744e1e-7516-41ec-b257-27b80dd1be0d")
+		)
+		(pin "2"
+			(uuid "02602a23-21af-40e4-b1b4-bfdef39d7053")
+		)
+		(instances
+			(project "analog-pid"
+				(path "/f8f47fcf-9d6d-43cb-8be8-a044ab46f294"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -8057,6 +8487,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 95.25 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 95.25 53.34 0)
 			(effects
 				(font
@@ -8213,77 +8652,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 41.91 127 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b0d54f42-5870-4057-839e-de1fbb41f63e")
-		(property "Reference" "R20"
-			(at 39.37 125.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 39.37 128.2699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 40.132 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 41.91 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 41.91 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e2f51c3a-1a16-4e5f-a553-54213ca1b751")
-		)
-		(pin "2"
-			(uuid "bba63429-8595-41e7-a589-28e78a85f5ca")
-		)
-		(instances
-			(project "analog-pid"
-				(path "/f8f47fcf-9d6d-43cb-8be8-a044ab46f294"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 22.86 19.05 0)
 		(unit 1)
@@ -8394,6 +8762,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 58.42 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 58.42 162.56 0)
 			(effects
 				(font
@@ -8605,6 +8982,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 242.57 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f8b50b6c-cc65-4c38-b532-e7c7771c7d8e")
 		)
@@ -8674,6 +9060,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 257.81 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "246b8526-8d50-43af-8335-874520b780d4")
 		)
@@ -8735,6 +9130,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 123.19 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 123.19 104.14 0)
 			(effects
 				(font
@@ -8841,6 +9245,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
+			(at 73.66 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 73.66 29.21 0)
 			(effects
 				(font
@@ -9067,6 +9480,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 58.42 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d1d962ac-40e7-458c-9238-f9429ff953c9")
 		)
@@ -9195,6 +9617,15 @@
 			)
 		)
 		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 50.8 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 50.8 29.21 0)
 			(effects
 				(font
@@ -9376,6 +9807,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 240.03 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f364d6e0-50eb-480d-a5f8-fd9baedd0e9c")
 		)
@@ -9514,6 +9954,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 40.64 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "290540d1-d46b-423e-b058-dc95a6e2f0a3")
 		)
@@ -9524,6 +9973,97 @@
 			(project "analog-pid"
 				(path "/f8f47fcf-9d6d-43cb-8be8-a044ab46f294"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:TS5A4624_SPDT")
+		(at 52.07 102.87 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ebfdcc87-624e-4a81-99f4-8611d78b8fc6")
+		(property "Reference" "U5"
+			(at 56.3565 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 56.3565 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering"
+			(at 52.07 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 52.07 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "999f96a3-5ac8-49aa-9847-494111f43a37")
+		)
+		(pin "2"
+			(uuid "3f22ed74-f992-4e6f-ba9d-60fe63e8434c")
+		)
+		(pin "5"
+			(uuid "b5a8188a-ca27-4642-aac6-8e09a2957a6f")
+		)
+		(pin "1"
+			(uuid "8e2f228d-8b96-4503-9da1-c3915473e528")
+		)
+		(pin "3"
+			(uuid "b7572ce3-d4b7-45f4-8dc9-d9e7c16104a9")
+		)
+		(pin "4"
+			(uuid "13bbeb35-9905-4a57-ad1b-ba675b7db578")
+		)
+		(instances
+			(project ""
+				(path "/f8f47fcf-9d6d-43cb-8be8-a044ab46f294"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -9575,6 +10115,15 @@
 			)
 		)
 		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 58.42 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 58.42 181.61 0)
 			(effects
 				(font
@@ -9689,6 +10238,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 33.02 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1f85a113-e199-4dc5-bfe9-dcb6c0e2fcd5")
 		)
@@ -9706,78 +10264,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 52.07 121.92 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f135a67c-1ee1-4e50-996d-7d707f364dbb")
-		(property "Reference" "R19"
-			(at 49.53 120.6499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0"
-			(at 49.53 123.1899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 50.292 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 52.07 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "900d1094-888d-4093-af6b-14ce71ff3fd0")
-		)
-		(pin "2"
-			(uuid "a0236230-65d6-4e70-993c-4f7517d37f4a")
-		)
-		(instances
-			(project "analog-pid"
-				(path "/f8f47fcf-9d6d-43cb-8be8-a044ab46f294"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 59.69 115.57 90)
+		(at 64.77 115.57 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9787,7 +10274,7 @@
 		(fields_autoplaced yes)
 		(uuid "fcf13d8c-588d-4fb8-a701-8b751b57d0d4")
 		(property "Reference" "R7"
-			(at 59.69 109.22 90)
+			(at 64.77 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9795,7 +10282,7 @@
 			)
 		)
 		(property "Value" "1Meg"
-			(at 59.69 111.76 90)
+			(at 64.77 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9803,7 +10290,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 59.69 113.792 90)
+			(at 64.77 113.792 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9812,7 +10299,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 115.57 0)
+			(at 64.77 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9821,7 +10308,16 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 59.69 115.57 0)
+			(at 64.77 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 64.77 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
