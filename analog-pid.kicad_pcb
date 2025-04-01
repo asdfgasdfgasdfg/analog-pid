@@ -9665,6 +9665,18 @@
 		(layer "Edge.Cuts")
 		(uuid "b43fdad7-95ea-494b-ad0c-7dc5cbddc70c")
 	)
+	(gr_text "5V"
+		(at 120.6 120.8 90)
+		(layer "B.SilkS")
+		(uuid "184147f6-edee-495a-8a17-0fddca1b1e24")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
 	(gr_text "PIN"
 		(at 126.8 137.4 90)
 		(layer "B.SilkS")
@@ -9672,6 +9684,18 @@
 		(effects
 			(font
 				(size 0.8 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "MES"
+		(at 120.6 133.4 90)
+		(layer "B.SilkS")
+		(uuid "39312219-7f1f-48a9-882e-8a41d89af1e1")
+		(effects
+			(font
+				(size 0.7 0.7)
 				(thickness 0.15)
 			)
 			(justify mirror)
@@ -9701,6 +9725,18 @@
 			(justify mirror)
 		)
 	)
+	(gr_text "MID"
+		(at 120.6 125.8 90)
+		(layer "B.SilkS")
+		(uuid "6b87d3e0-811b-493b-922e-13d9cf873ee0")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
 	(gr_text "Analog PID Controller"
 		(at 157 111.2 0)
 		(layer "B.SilkS")
@@ -9711,6 +9747,42 @@
 				(thickness 0.1)
 			)
 			(justify left bottom mirror)
+		)
+	)
+	(gr_text "REF"
+		(at 120.6 130.8 90)
+		(layer "B.SilkS")
+		(uuid "db9d1539-f50d-49fc-ba89-93769dd8d605")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "OUT"
+		(at 120.6 128.4 90)
+		(layer "B.SilkS")
+		(uuid "dc496188-00bc-4cbb-83d3-274476a1d904")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "GND"
+		(at 120.6 123.2 90)
+		(layer "B.SilkS")
+		(uuid "e65bc860-8ff6-490a-8add-cf316cfdf887")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify mirror)
 		)
 	)
 	(gr_text "ON"
