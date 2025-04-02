@@ -5209,7 +5209,7 @@
 				)
 			)
 		)
-		(property "Value" "Opamp_Dual"
+		(property "Value" "TSV792IDT"
 			(at 264.16 161.29 0)
 			(effects
 				(font
@@ -5845,7 +5845,7 @@
 				)
 			)
 		)
-		(property "Value" "Opamp_Dual"
+		(property "Value" "TSV792IDT"
 			(at 120.65 41.91 0)
 			(effects
 				(font
@@ -6167,6 +6167,151 @@
 			(project "analog-pid"
 				(path "/f8f47fcf-9d6d-43cb-8be8-a044ab46f294"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 162.56 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4878fdf5-25b5-4aec-8fe6-615a3f7d086e")
+		(property "Reference" "#PWR028"
+			(at 162.56 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 162.56 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 162.56 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c1f003c-0272-489f-b321-181ae33d4403")
+		)
+		(instances
+			(project "analog-pid"
+				(path "/f8f47fcf-9d6d-43cb-8be8-a044ab46f294"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 29.21 121.92 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f723e33-3e6d-4c0d-8a5f-11f6c8f30d76")
+		(property "Reference" "C9"
+			(at 25.4 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 25.4 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 28.2448 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 29.21 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 29.21 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "40fa0669-27c2-4042-ae65-f7e14c8f1773")
+		)
+		(pin "1"
+			(uuid "a675ae5b-df6f-4c15-956f-cc756215c50a")
+		)
+		(instances
+			(project "analog-pid"
+				(path "/f8f47fcf-9d6d-43cb-8be8-a044ab46f294"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -7068,6 +7213,85 @@
 			(project "analog-pid"
 				(path "/f8f47fcf-9d6d-43cb-8be8-a044ab46f294"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 162.56 149.86 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "713384f1-afda-461c-b0a0-8c2a5ecc6a71")
+		(property "Reference" "C10"
+			(at 158.75 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 158.75 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 161.5948 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 162.56 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 162.56 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bbe86c8f-ce22-41fa-a67b-773c1620b5f5")
+		)
+		(pin "1"
+			(uuid "f07a09b4-f952-44e2-971b-4f865a3a9625")
+		)
+		(instances
+			(project "analog-pid"
+				(path "/f8f47fcf-9d6d-43cb-8be8-a044ab46f294"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -9001,6 +9225,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 29.21 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc8e620c-7dc2-461f-981d-72cdccb08438")
+		(property "Reference" "#PWR026"
+			(at 29.21 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 29.21 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 29.21 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "870b0c23-ac44-4628-b4b0-51b026d80b95")
+		)
+		(instances
+			(project "analog-pid"
+				(path "/f8f47fcf-9d6d-43cb-8be8-a044ab46f294"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 242.57 69.85 90)
 		(mirror x)
@@ -9253,7 +9543,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Opamp_Dual"
+		(property "Value" "TSV792IDT"
 			(at 72.39 30.4799 0)
 			(effects
 				(font
@@ -9759,6 +10049,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 162.56 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc0ed3df-2475-42e1-a3bf-6b44625c6c62")
+		(property "Reference" "#PWR029"
+			(at 162.56 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 162.56 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ab2e873-fdbc-4440-88b1-b469058a3722")
+		)
+		(instances
+			(project "analog-pid"
+				(path "/f8f47fcf-9d6d-43cb-8be8-a044ab46f294"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 64.77 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10069,7 +10425,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "TS5A4624"
 			(at 56.3565 106.68 0)
 			(effects
 				(font
@@ -10329,6 +10685,72 @@
 			(project "analog-pid"
 				(path "/f8f47fcf-9d6d-43cb-8be8-a044ab46f294"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 29.21 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc76eb73-4223-4894-b51f-d342e2c030e6")
+		(property "Reference" "#PWR027"
+			(at 29.21 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 29.21 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 29.21 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7660297-e8b9-4b80-b475-ffce371218c9")
+		)
+		(instances
+			(project "analog-pid"
+				(path "/f8f47fcf-9d6d-43cb-8be8-a044ab46f294"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
